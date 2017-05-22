@@ -1,0 +1,11 @@
+﻿  stdafx.cpp
+  FileIO.cpp
+  GameOfLife.cpp
+  InputParser.cpp
+  Timer.cpp
+FileIO.cpp(69): warning C4554: "|": Prüfen Sie Operatorrangfolge auf mögliche Fehler; verwenden Sie runde Klammern, um den Vorrang zu verdeutlichen
+  Code wird generiert.
+  All 245 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Codegenerierung ist abgeschlossen.
+  GameOfLife.vcxproj -> C:\Users\hanne\OneDrive\Projekte\Lokal\VS15\EPR\GameOfLife\x64\Release\gol.exe
+  GameOfLife.vcxproj -> C:\Users\hanne\OneDrive\Projekte\Lokal\VS15\EPR\GameOfLife\x64\Release\gol.pdb (Full PDB)

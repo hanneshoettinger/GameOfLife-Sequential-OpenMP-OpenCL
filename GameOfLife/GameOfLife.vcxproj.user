@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>--load "C:\Users\Hannes\Documents\Visual Studio 2015\Projects\EPR\GameOfLife\GameOfLife\step1000_in_250generations\random10000_in.gol" --save  "C:\Users\Hannes\Documents\Visual Studio 2015\Projects\EPR\GameOfLife\GameOfLife\step1000_in_250generations\random10000_out.gol" --generations "1" --measure</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommandArguments>--load "C:\Users\Hannes\Documents\Visual Studio 2015\Projects\EPR\GameOfLife\GameOfLife\step1000_in_250generations\random10000_in.gol" --save  "C:\Users\Hannes\Documents\Visual Studio 2015\Projects\EPR\GameOfLife\GameOfLife\step1000_in_250generations\random10000_out.gol" --generations "1" --measure</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>--load "C:\Users\Hannes\Documents\Visual Studio 2015\Projects\EPR\GameOfLife\GameOfLife\step1000_in_250generations\random250_in.gol" --save "C:\Users\Hannes\Documents\Visual Studio 2015\Projects\EPR\GameOfLife\GameOfLife\step1000_in_250generations\random250_out.gol" --generations "250" --measure --mode "ocl" device "gpu"</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>--load "C:\Users\Hannes\Documents\Visual Studio 2015\Projects\EPR\GameOfLife\GameOfLife\step1000_in_250generations\random10000_in.gol" --save  "C:\Users\Hannes\Documents\Visual Studio 2015\Projects\EPR\GameOfLife\GameOfLife\step1000_in_250generations\random10000_out.gol" --generations "250" --measure --mode "ocl" --device "gpu"</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
